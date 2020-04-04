@@ -1,7 +1,9 @@
-.Capitalize {
+.IngredientName {
   text-transform: capitalize;
 }
-
+.IngredientIcon {
+  margin-right: 0.5rem;
+}
 .Heading {
   text-align: center;
   color: #474747;
@@ -27,7 +29,7 @@
 .Ingredients li {
   padding: 0.3rem 0rem;
   display: flex;
-  width: 6rem;
+  width: 8rem;
   justify-content: space-between;
   font-size: 1.1rem;
   color: #474747;
@@ -36,4 +38,9 @@
   text-align: center;
   color: #474747;
   font-size: 1.2rem;
+}
+.ConfirmButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
