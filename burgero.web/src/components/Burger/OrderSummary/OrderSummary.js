@@ -34,11 +34,14 @@ const OrderSummary = (props) => {
   });
   return (
     <>
-      <h3 className={classes.Heading}>Your Order</h3>
+      <h2 className={classes.Heading}>Your Order</h2>
       <p className={classes.SubHeading}>
         A delicious burger made with the following ingredients:
       </p>
       <ul className={classes.Ingredients}>{ingredientSummary}</ul>
+      <h3 className={classes.Heading}>
+        Total Price: $ {props.totalPrice.toFixed(2)}
+      </h3>
       <p className={classes.prompt}>Continue to checkout?</p>
       <div className={classes.ConfirmButtons}>
         <Button btnType="Success" click={props.purchase}>

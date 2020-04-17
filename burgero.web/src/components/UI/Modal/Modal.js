@@ -9,7 +9,7 @@ const Modal = (props) => {
 
   return (
     <>
-      <Backdrop show={props.show} modalClosed={props.closeModal} />
+      <Backdrop show={props.show} clicked={props.closeModal} />
       <div className={modalClasses}>{props.children}</div>
     </>
   );
