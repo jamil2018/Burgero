@@ -1,0 +1,21 @@
+.ContactData {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactData form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid #eeeeee;
+  display: inline-block;
+}
+.ContactData form div {
+  display: flex;
+  justify-content: center;
+}

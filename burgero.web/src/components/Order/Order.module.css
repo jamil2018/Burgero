@@ -1,0 +1,16 @@
+.Order {
+  border: 1px solid #d4d4d4;
+  margin: 3rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.Order p {
+  margin-top: 0.5rem;
+}
+.Order span {
+  border: 1px solid #d4d4d4;
+  padding: 0.2rem 1.5rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
